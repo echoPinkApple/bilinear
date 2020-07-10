@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Thu Jul 09 20:31:53 2020
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : bilinear
+Top-level Entity Name : bilinear
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 132
+Total pins : 10
+Total virtual pins : 0
+Total block memory bits : 524,288
+Total DSP Blocks : 13
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI TX Channels : 0
+Total PLLs : 0
+Total DLLs : 0

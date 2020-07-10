@@ -1,0 +1,84 @@
+# Reading E:/quartus/modelsim_ase/tcl/vsim/pref.tcl 
+# do bilinear_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Desktop/signal/bilinear {C:/Users/Lenovo/Desktop/signal/bilinear/mem_control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mem_control
+# 
+# Top level modules:
+# 	mem_control
+# vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Desktop/signal/bilinear {C:/Users/Lenovo/Desktop/signal/bilinear/coordinate_trans.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module coordinate_trans
+# 
+# Top level modules:
+# 	coordinate_trans
+# vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Desktop/signal/bilinear {C:/Users/Lenovo/Desktop/signal/bilinear/bilinear_cal.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bilinear_cal
+# 
+# Top level modules:
+# 	bilinear_cal
+# vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Desktop/signal/bilinear {C:/Users/Lenovo/Desktop/signal/bilinear/bilinear.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bilinear
+# 
+# Top level modules:
+# 	bilinear
+# vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Desktop/signal/bilinear {C:/Users/Lenovo/Desktop/signal/bilinear/ram_control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram_control
+# 
+# Top level modules:
+# 	ram_control
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Lenovo/Desktop/signal/bilinear/simulation/modelsim {C:/Users/Lenovo/Desktop/signal/bilinear/simulation/modelsim/bilinear.vt}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bilinear_vlg_tst
+# 
+# Top level modules:
+# 	bilinear_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  bilinear_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps bilinear_vlg_tst 
+# Loading work.bilinear_vlg_tst
+# Loading work.bilinear
+# Loading work.coordinate_trans
+# Loading work.mem_control
+# Loading work.ram_control
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.bilinear_cal
+# ** Warning: (vsim-3015) C:/Users/Lenovo/Desktop/signal/bilinear/mem_control.v(37): [PCDPC] - Port size (14 or 14) does not match connection size (16) for port 'address'. The port definition is at: C:/Users/Lenovo/Desktop/signal/bilinear/ram_control.v(40).
+# 
+#         Region: /bilinear_vlg_tst/i1/mem_control/ram_1
+# ** Warning: (vsim-3015) C:/Users/Lenovo/Desktop/signal/bilinear/mem_control.v(46): [PCDPC] - Port size (14 or 14) does not match connection size (16) for port 'address'. The port definition is at: C:/Users/Lenovo/Desktop/signal/bilinear/ram_control.v(40).
+# 
+#         Region: /bilinear_vlg_tst/i1/mem_control/ram_2
+# ** Warning: (vsim-3015) C:/Users/Lenovo/Desktop/signal/bilinear/mem_control.v(54): [PCDPC] - Port size (14 or 14) does not match connection size (16) for port 'address'. The port definition is at: C:/Users/Lenovo/Desktop/signal/bilinear/ram_control.v(40).
+# 
+#         Region: /bilinear_vlg_tst/i1/mem_control/ram_3
+# ** Warning: (vsim-3015) C:/Users/Lenovo/Desktop/signal/bilinear/mem_control.v(62): [PCDPC] - Port size (14 or 14) does not match connection size (16) for port 'address'. The port definition is at: C:/Users/Lenovo/Desktop/signal/bilinear/ram_control.v(40).
+# 
+#         Region: /bilinear_vlg_tst/i1/mem_control/ram_4
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench
+# Break in Module bilinear_vlg_tst at C:/Users/Lenovo/Desktop/signal/bilinear/simulation/modelsim/bilinear.vt line 60
+# Simulation Breakpoint: Break in Module bilinear_vlg_tst at C:/Users/Lenovo/Desktop/signal/bilinear/simulation/modelsim/bilinear.vt line 60
+# MACRO ./bilinear_run_msim_rtl_verilog.do PAUSED at line 21

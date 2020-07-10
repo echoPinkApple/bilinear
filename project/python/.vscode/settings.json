@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "E:\\anaconda\\python.exe",
+    "python.linting.enabled": false,
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=PyQt5"
+    ],
+    "python.formatting.provider": "black",
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all"
+}

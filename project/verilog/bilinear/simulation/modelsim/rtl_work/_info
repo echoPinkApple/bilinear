@@ -1,0 +1,125 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Lenovo\Desktop\signal\bilinear\simulation\modelsim
+vbilinear
+Io5bKBK5KHHgRHH8faRnkM3
+VmY6G9IkfUm1`cT1QLZY912
+Z1 dC:\Users\Lenovo\Desktop\signal\bilinear\simulation\modelsim
+w1594293995
+8C:/Users/Lenovo/Desktop/signal/bilinear/bilinear.v
+FC:/Users/Lenovo/Desktop/signal/bilinear/bilinear.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Lenovo/Desktop/signal/bilinear -O0
+!i10b 1
+!s100 VbGP?KHhGkEMj0bn[k7kC1
+!s85 0
+!s108 1594299745.542000
+!s107 C:/Users/Lenovo/Desktop/signal/bilinear/bilinear.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Desktop/signal/bilinear|C:/Users/Lenovo/Desktop/signal/bilinear/bilinear.v|
+!s101 -O0
+vbilinear_cal
+IZa[;@?e]aE5HS8?I=:i7E0
+V<Ue=b[QWhTHO<7AGKLX4X1
+R1
+w1594294035
+8C:/Users/Lenovo/Desktop/signal/bilinear/bilinear_cal.v
+FC:/Users/Lenovo/Desktop/signal/bilinear/bilinear_cal.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 j3E3j?0j;Tob>d<0G;8NT1
+!s85 0
+!s108 1594299745.335000
+!s107 C:/Users/Lenovo/Desktop/signal/bilinear/bilinear_cal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Desktop/signal/bilinear|C:/Users/Lenovo/Desktop/signal/bilinear/bilinear_cal.v|
+!s101 -O0
+vbilinear_vlg_tst
+!i10b 1
+!s100 nog0=VPSN4XmQF`<7BONU2
+I8OZo0V>T0IG:?5cfFL=TK2
+VKfbFT[]=4ai^gQ`lnnUWE3
+R1
+w1594297561
+8C:/Users/Lenovo/Desktop/signal/bilinear/simulation/modelsim/bilinear.vt
+FC:/Users/Lenovo/Desktop/signal/bilinear/simulation/modelsim/bilinear.vt
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1594299745.959000
+!s107 C:/Users/Lenovo/Desktop/signal/bilinear/simulation/modelsim/bilinear.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Desktop/signal/bilinear/simulation/modelsim|C:/Users/Lenovo/Desktop/signal/bilinear/simulation/modelsim/bilinear.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/Lenovo/Desktop/signal/bilinear/simulation/modelsim -O0
+vcoordinate_trans
+Im8V@gg]6<gU[S=];46ma>0
+VG67?JP:SboBaK`gTFE@H`1
+R1
+w1594294071
+8C:/Users/Lenovo/Desktop/signal/bilinear/coordinate_trans.v
+FC:/Users/Lenovo/Desktop/signal/bilinear/coordinate_trans.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 3:4abG?<;Te1A7b>fFOzO0
+!s85 0
+!s108 1594299745.090000
+!s107 C:/Users/Lenovo/Desktop/signal/bilinear/coordinate_trans.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Desktop/signal/bilinear|C:/Users/Lenovo/Desktop/signal/bilinear/coordinate_trans.v|
+!s101 -O0
+vmem_control
+I8I_R8kfDPFbAg?;^cGVHI2
+V1:63[<4gi<6YPd<behBSd0
+R1
+w1594294098
+8C:/Users/Lenovo/Desktop/signal/bilinear/mem_control.v
+FC:/Users/Lenovo/Desktop/signal/bilinear/mem_control.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 a@V]fz?iChj73[a:DXzK`1
+!s85 0
+!s108 1594299744.945000
+!s107 C:/Users/Lenovo/Desktop/signal/bilinear/mem_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Desktop/signal/bilinear|C:/Users/Lenovo/Desktop/signal/bilinear/mem_control.v|
+!s101 -O0
+vram_control
+IJgfScUIcLM8Z6Qn]BM>Q:3
+ViUaJ@7kadKJfBo14E4T=A0
+R1
+w1594295887
+8C:/Users/Lenovo/Desktop/signal/bilinear/ram_control.v
+FC:/Users/Lenovo/Desktop/signal/bilinear/ram_control.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 z0Sje@WKABNfZf;MBXB3n3
+!s85 0
+!s108 1594299745.751000
+!s107 C:/Users/Lenovo/Desktop/signal/bilinear/ram_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Desktop/signal/bilinear|C:/Users/Lenovo/Desktop/signal/bilinear/ram_control.v|
+!s101 -O0

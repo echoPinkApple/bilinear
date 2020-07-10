@@ -1,0 +1,69 @@
+
+`timescale 10 ns/ 10 ps
+module bilinear_vlg_tst();
+
+reg[7:0] save_data[0:256*256-1];
+reg[20:0] cnt;
+reg[20:0] i;
+integer save_picture;
+reg clk;
+reg start;                                              
+wire [7:0]  doutb;
+
+
+bilinear i1 (
+
+	.clk(clk),
+	.doutb(doutb),
+	.start(start)
+);
+
+initial                                                
+begin                                                                        
+        clk=1;
+		start=1;                                           
+$display("Running testbench");                       
+end    
+
+
+initial cnt = 0;
+
+always @(posedge clk)
+begin 
+ if (!start) 
+ cnt <= 20'b0;
+ else  cnt <= cnt +1;
+end
+always @(posedge clk)
+begin
+save_data[cnt] <= doutb[7:0] ;
+end      
+
+
+always @ (posedge clk)
+
+begin
+
+if (cnt > 256*256-1)
+begin
+save_picture=$fopen("savedata.txt");
+   
+  for(i=0;i<256*256;i=i+1)
+  begin
+  #1 
+  //$display(DataSource[i]);
+  if (!i) $fdisplay(save_picture,"%2h",i);
+  else
+  $fdisplay(save_picture,"%h",save_data[i]);
+end
+  $fclose(save_picture);
+  $stop();
+end
+
+end
+
+
+	  
+always #1 clk=~clk;                                            
+endmodule
+

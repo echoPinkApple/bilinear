@@ -1,0 +1,6 @@
+
+State Machine - |bilinear|coordinate_trans:coordinate|current_state
+Name current_state.00 current_state.START current_state.IDLE 
+current_state.IDLE 0 0 0 
+current_state.00 1 0 1 
+current_state.START 0 1 1 

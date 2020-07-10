@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="bilinear">
+		<CBX_INST_ENTRY INSTANCE_NAME="|bilinear|mem_control:mem_control|ram_control:ram_1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_oan1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bilinear|mem_control:mem_control|ram_control:ram_2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_oan1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bilinear|mem_control:mem_control|ram_control:ram_3|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_oan1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bilinear|mem_control:mem_control|ram_control:ram_4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_oan1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
